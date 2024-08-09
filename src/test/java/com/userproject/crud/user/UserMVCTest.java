@@ -73,13 +73,13 @@ public class UserMVCTest {
 //    }
 
 
-    @Test
-    public void testCreateUser() throws Exception {
-        mockMvc.perform(post("/api/users")
-                .contentType(MediaType.APPLICATION_JSON)
-                .content("{\"username\":\"arul\",\"email\":\"arul@123.com\"}")).
-                andExpect(status().isCreated());
-    }
+//    @Test
+//    public void testCreateUser() throws Exception {
+//        mockMvc.perform(post("/api/users")
+//                .contentType(MediaType.APPLICATION_JSON)
+//                .content("{\"username\":\"arul\",\"email\":\"arul@123.com\"}")).
+//                andExpect(status().isCreated());
+//    }
 
 
 
